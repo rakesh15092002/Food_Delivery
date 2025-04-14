@@ -2,7 +2,7 @@ import foodModel from "../models/foodModel.js";
 import fs from 'fs';
 import mongoose from 'mongoose';
 
-const url = "http://localhost:4000"
+const url = "process.env.BACKEND_URL"
 
 let gridFsBucket;
 
